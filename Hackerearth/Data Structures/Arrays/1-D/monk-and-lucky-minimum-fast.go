@@ -1,6 +1,9 @@
 /*
 Question Link:https://www.hackerearth.com/practice/data-structures/arrays/1-d/practice-problems/algorithm/monk-and-lucky-minimum-3/
 Time complexity: O(n)
+Verdict:ReadString all of a sudden brought down the overall time to 1.3s from 8s. Big win. 
+
+Thank you so much http://blog.narenarya.in/tips-tricks-go
 */
 package main
 
@@ -66,8 +69,7 @@ func makeIntArray(stream string)[]int{
 
   for index,val := range split_arr{
   
-  //http://stackoverflow.com/questions/31333353/faster-input-scanning icza's toInt function claims to be faster than strconv
-    clean_arr[index], _ = strconv.Atoi(val) 
+  clean_arr[index], _ = strconv.Atoi(val) 
   }
 
   return clean_arr
