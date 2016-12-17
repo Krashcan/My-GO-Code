@@ -1,7 +1,7 @@
 /*
 Question Link:https://www.hackerearth.com/practice/data-structures/arrays/1-d/practice-problems/algorithm/monk-and-lucky-minimum-3/
 Time complexity: O(n)
-Verdict:ReadString all of a sudden brought down the overall time to 1.3s from 8s. Big win. 
+Verdict:ReadString all of a sudden brought down the overall time to 1.3s from 8s(using Fscanf). Big win. 
 
 Thank you so much http://blog.narenarya.in/tips-tricks-go
 */
